@@ -6,3 +6,12 @@ body.v2 input.payment-input,
 body.payment input.payment-input {
   height: 50px;
 }
+
+.control-group.payment_form-mh {
+  display: flex;
+  gap: 10px;
+}
+
+.control-group.payment_form-mh .pull-left {
+  flex: 1;
+}
