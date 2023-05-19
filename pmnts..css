@@ -15,3 +15,7 @@ body.payment input.payment-input {
 .control-group.payment_form-mh .pull-left {
   flex: 1;
 }
+
+body.v2 input.payment-input .row-fluid .span4.push4.offset4 {
+  padding: 0;
+}
