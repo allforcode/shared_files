@@ -16,6 +16,11 @@ body.payment input.payment-input {
   flex: 1;
 }
 
-body.v2 input.payment-input .row-fluid .span4.push4.offset4 {
-  padding: 0;
+body.v2 #payment_request_expiry_date,
+body.payment #payment_request_expiry_date {
+  width: 100% !important;
+}
+
+body.v2  .row-fluid .span4.push4.offset4 {
+  padding: 0 !important;
 }
